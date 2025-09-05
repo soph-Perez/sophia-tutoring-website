@@ -149,61 +149,59 @@ body{
 
 /*middle portion styles*/
 
-.information-mid{
-    margin-left: 15px;
-    font-size: 25px;
-}
-
-.card-one-mid-body, .card-two-mid-body, .card-three-mid-body, .card-four-mid-body{
-    margin-right: 50px;
-}
-
-.cards-mid-body{
+.flex-box-mid-icon{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.card-one-mid img{
+    height: 50px;
+    width: 50px;
+}
+
+.card-one-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ed8772;
+    box-shadow: 0px 1px 7px rgba(240,202,104,0.4);
+    height: 200px;
+    width: 200px;
+    padding-right: 2px;
+    padding-right: 2px;
+    margin-bottom: 100px;
+}
+
+.testimony-card{
+    border-style: solid;
+    border-width: 2px;
+    border-color:#eeecdd;
+    box-shadow: 0px 1px 7px rgba(240,202,104,0.4);
     margin-bottom: 75px;
 }
 
-.card-five-bottom-body, .card-six-bottom-body, .information-bottom{
-    flex: 1;
+.testimony-info{
+    font-style: italic;
+    font-size: 25px;
 }
 
-.card-one-mid-body, .card-two-mid-body, .card-three-mid-body, .card-four-mid-body{
-    max-width: 275px;
-    margin-right: 30px;
-}
 
-.cards-mid-body-top, .cards-mid-body-bot, .cards-bottom-body, .card-one-mid-body, .card-two-mid-body, .card-three-mid-body, .card-four-mid-body, .card-five-bottom-body{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.check-mark-mid{
-    border-radius: 75px;
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    margin-bottom: 50px;
-    box-shadow: 0px 5px 15px rgba(240, 202, 164,0.6);
-}
-
-.img-bottom{
-    height: 250px;
-    width: 400px;
-    object-fit:fill;
-}
 
 /*bottom part styles*/
 
 .information-bot-one{
-    font-size: 22px;
+    font-size: 20;
     font-style: italic;
 }
 
 .information-bot-two{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .cards-bottom-body{
